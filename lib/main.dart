@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:replies/onboarding/onboarding_page.dart';
+import 'package:replies/onboarding/launch_page.dart';
 
 void main() {
   runApp(
@@ -19,8 +19,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  // If it's not logged -> show default page
+  // If it's logged -> show main page
+
   @override
   Widget build(BuildContext context) {
-    return OnBoardingPage();
+    return LaunchPage();
   }
 }
