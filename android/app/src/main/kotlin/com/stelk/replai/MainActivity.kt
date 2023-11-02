@@ -1,4 +1,4 @@
-package com.stelk.replies
+package com.stelk.replai
 
 import android.os.Bundle
 import io.flutter.embedding.android.FlutterActivity
